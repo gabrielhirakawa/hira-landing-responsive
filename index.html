@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hira - Comunicação Visual</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+</head>
+<body>
+	<header class="container">
+		<a href="index.html"><h1 class="logo">Hira</h1></a>
+		<button class="btn-menu bg-gradient"><i class="fas fa-bars fa-lg"></i></button>
+		<nav class="menu">
+			<a class="btn-close"><i class="fas fa-times"></i></a>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Clientes</a></li>
+				<li><a href="#">Serviços</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Sobre</a></li>
+				<li><a href="#">Contato</a></li>
+
+			</ul>
+		</nav>
+	</header>
+	<div class="container banner">
+		<div class="title">
+			<h2>OUSE INOVAR!</h2>
+			<h3>Criamos experiências e estabelecemos ações estratégicas que conectam marcas e consumidores.</h3>
+		</div>
+		<div class="buttons">
+			<button class="btn btn-cadastrar bg-white radius"> Cadastrar <i class="fas fa-arrow-circle-right"></i></button>
+			<button class="btn btn-sobre bg-black radius"> Sobre <i class="fas fa-question-circle"></i></button>
+		</div>
+	</div>
+	<main class="servicos container">
+		<article class="servico bg-white radius">
+			<a href="#"><img src="img/1.jpg" alt="logo hira transportes"></a>
+			<div class="inner">
+				<a href="">Identidade Visual</a>
+				<h4>Logotipos, VTs e impressos </h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+			</div>
+		</article>
+		<article class="servico bg-white radius">
+			<a href="#"><img src="img/2.jpg" alt="logo hira transportes"></a>
+			<div class="inner">
+				<a href="">Marketing Digital</a>
+				<h4>Logotipos, VTs e impressos </h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+			</div>
+		</article>
+		<article class="servico bg-white radius">
+			<a href="#"><img src="img/3.jpg" alt="logo hira transportes"></a>
+			<div class="inner">
+				<a href="">Criação de Sites</a>
+				<h4>Logotipos, VTs e impressos </h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+			</div>
+		</article>
+	</main>
+<!-- NEWSLETTER -->
+<section class="newsletter bg-black container">
+	<h2> Increva-se agora! </h2>
+	<h3> Receba novidades, dicas e muitos mais! </h3>
+	<form>
+		<input type="email" name="email" placeholder="Seu email" class="bg-black radius">
+		<button class="bg-white radius"> Cadastrar </button>
+	</form>
+</section>
+
+<!-- RODAPÉ -->
+<footer class="bg-gradient container">
+	<div class="social-icons">
+		<a href="#"><i class="fab fa-facebook"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-google"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+		<a href="#"><i class="fa fa-envelope"></i></a>
+	</div>
+	<p class="copyright">
+		Copyright Hira 2019. Todos os direitos reservados.
+	</p>
+</footer>
+
+<!-- JQUERY -->
+<script
+  src="https://code.jquery.com/jquery-3.4.0.min.js"
+  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+  crossorigin="anonymous"></script>
+  <script>
+  	$(".btn-menu").click(function(){
+  		$(".menu").show();
+  	});
+  	$(".btn-close").click(function(){
+  		$(".menu").hide();
+  	});
+  </script>
+</body>
+</html>
